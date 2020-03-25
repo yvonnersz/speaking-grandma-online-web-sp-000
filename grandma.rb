@@ -3,11 +3,11 @@ def speak_to_grandma(string)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-  if string != string.uppercase
+  if string != string.upcase
     puts "HUH?! SPEAK UP, SONNY!"
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
-  elsif string == string.uppercase
+  elsif string == string.upcase
     puts "NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
   else
