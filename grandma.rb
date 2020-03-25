@@ -4,14 +4,14 @@ def speak_to_grandma(string)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
   if string != string.upcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
   elsif string == string.upcase
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
   elsif string == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
   end
