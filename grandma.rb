@@ -5,7 +5,7 @@ def speak_to_grandma(string)
 # unless you shout it (type in all capitals).
   if string != string.uppercase
     puts "HUH?! SPEAK UP, SONNY!"
-# If you shout, she can hear you (or at least she thinks so) 
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
   elsif string == string.uppercase
     puts "NO, NOT SINCE 1938!"
